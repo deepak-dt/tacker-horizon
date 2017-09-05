@@ -27,7 +27,7 @@ class Vnfmgroup(horizon.PanelGroup):
 class Nfvogroup(horizon.PanelGroup):
     slug = "nfvogroup"
     name = _("NFV Orchestration")
-    panels = ('vim', 'vnffgcatalog', 'vnffgmanager',)
+    panels = ('vim', 'vnffgcatalog', 'vnffgmanager', 'vnftopology',)
 
 
 class Nfv(horizon.Dashboard):
